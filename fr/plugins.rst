@@ -321,7 +321,7 @@ Ce qui est au-dessus connecte les routes par défaut pour votre plugin. Vous
 pouvez personnaliser ce fichier avec des routes plus spécifiques plus tard.
 
 Si vous souhaitez accéder à ce qu'on a fait avant, visitez
-``/contact-manager/contacts``. Vous aurez une erreur "Missing Model"
+``/contact_manager/contacts``. Vous aurez une erreur "Missing Model"
 parce que nous n'avons pas de model Contact encore défini.
 
 Si votre application inclut le routage par défaut que CakePHP fournit, vous
@@ -329,10 +329,10 @@ serez capable d'accéder aux controllers de votre plugin en utilisant les URLs
 comme::
 
     // Accéder à la route index d'un controller de plugin.
-    /contact-manager/contacts
+    /contact_manager/contacts
 
     // Toute action sur un controller de plugin.
-    /contact-manager/contacts/view/1
+    /contact_manager/contacts/view/1
 
 Si votre application définit des préfixes de routage, le routage par défaut de
 CakePHP va aussi connecter les routes qui utilisent le modèle suivant::
